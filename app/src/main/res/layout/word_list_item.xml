@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/text_view_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView_logo"
+        android:padding="5dp"
+        android:text="English"
+        android:textColor="@android:color/black"
+        android:background="?android:attr/selectableItemBackground"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_view_mewok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_english"
+        android:layout_toRightOf="@id/imageView_logo"
+        android:padding="5dp"
+        android:text="Mewok"
+        android:textColor="@android:color/black"
+        android:background="?android:attr/selectableItemBackground"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/text_view_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_play_arrow_white_48"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

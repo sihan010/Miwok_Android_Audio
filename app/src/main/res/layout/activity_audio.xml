@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    tools:context=".AudioActivity">
+
+    <Button
+        android:id="@+id/button_st"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Stop"
+        android:layout_marginHorizontal="5dp"
+        android:onClick="button_stop"/>
+
+    <Button
+        android:id="@+id/button_pl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Play"
+        android:layout_marginHorizontal="5dp"
+        android:onClick="button_play"/>
+
+</LinearLayout>

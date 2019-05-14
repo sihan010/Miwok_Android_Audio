@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    tools:context=".GradeActivity">
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="English Grade"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Math Grade"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="History Grade"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_programming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Programming Grade"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/grade_list_view">
+
+    </ListView>
+
+</LinearLayout>
